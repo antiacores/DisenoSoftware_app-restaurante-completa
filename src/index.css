@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
 @layer base {
   :root {
@@ -80,3 +81,6 @@
     @apply bg-background text-foreground;
   }
 }
+=======
+@tailwind utilities;
+>>>>>>> feature/firebase

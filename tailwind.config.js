@@ -1,11 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+<<<<<<< HEAD
     darkMode: ["class"],
     content: [
+=======
+  content: [
+>>>>>>> feature/firebase
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+<<<<<<< HEAD
   	extend: {
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -67,4 +72,9 @@ export default {
   	}
   },
   plugins: [require("tailwindcss-animate")],
+=======
+    extend: {},
+  },
+  plugins: [],
+>>>>>>> feature/firebase
 }
